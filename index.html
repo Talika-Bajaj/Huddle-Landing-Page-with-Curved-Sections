@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="images/logo.svg" height="28" alt="">
+      <button class="try-btn">Try It Free</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <div class="one card">
+        <div class="info">
+          <h1>Build The Community Your Fans Will Love</h1>
+          <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create
+            connections with your users as you engage in genuine discussion.</p>
+          <button class="start">Get Started For Free</button>
+        </div>
+        <div class="img">
+          <img src="images/screen-mockups.svg" alt="">
+        </div>
+      </div>
+
+      <div class="two figures">
+        <div class="fig1 fig">
+          <img src="images/icon-communities.svg" height="28" alt="">
+          <h1>1.4k+</h1>
+          <p>Communities Formed
+          </p>
+        </div>
+        <div class="fig2 fig">
+          <img src="images/icon-messages.svg" height="25" alt="">
+          <h1>2.7m+</h1>
+          <p>Messages Sent</p>
+        </div>
+      </div>
+
+      <div class="sections">
+        <section class=" sec1">
+          <picture>
+            <source media="(max-width: 850px )" srcset="images/bg-section-top-mobile-1.svg">
+            <source media="(min-width: 850px )" srcset="images/bg-section-top-desktop-1.svg">
+            <img src="images/bg-section-top-mobile-1.svg" class="top-img">
+          </picture>
+          <div class="inner-section">
+            <div class="image img1">
+              <img src="images/illustration-grow-together.svg">
+            </div>
+            <div class="info data part1">
+              <h1>Grow Together</h1>
+              <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+                Think of the insightful conversations you miss out on with a feedback form.
+              </p>
+            </div>
+          </div>
+          <picture>
+            <source media="(max-width: 850px )" srcset="images/bg-section-bottom-mobile-1.svg">
+            <source media="(min-width: 850px )" srcset="images/bg-section-bottom-desktop-1.svg">
+            <img src="images/bg-section-bottom-mobile-1.svg" class="bottom-img">
+          </picture>
+        </section>
+        <section class="sec2">
+          <div class="inner-section color">
+            <div class="image img2">
+              <img src="images/illustration-flowing-conversation.svg" alt="">
+            </div>
+            <div class="info data part2">
+              <h1>Flowing Conversations</h1>
+              <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time
+                loading for a more natural flow.</p>
+            </div>
+          </div>
+        </section>
+        <section class="sec3">
+          <picture>
+            <source media="(max-width: 850px )" srcset="images/bg-section-top-mobile-2.svg">
+            <source media="(min-width: 850px )" srcset="images/bg-section-top-desktop-2.svg">
+            <img src="images/bg-section-top-mobile-2.svg" class="top-img">
+          </picture>
+          <div class="inner-section">
+            <div class="image img3">
+              <img src="images/illustration-your-users.svg" alt="">
+            </div>
+            <div class="info data part3">
+              <h1>Your Users</h1>
+              <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once
+                signed in to your app, your users can start chatting immediately.</p>
+            </div>
+          </div>
+          <picture>
+            <source media="(max-width: 850px )" srcset="images/bg-section-bottom-mobile-2.svg">
+            <source media="(min-width: 850px )" srcset="images/bg-section-bottom-desktop-2.svg">
+            <img src="images/bg-section-bottom-mobile-2.svg" class="bottom-img">
+          </picture>
+        </section>
+        <section class="community">
+          <h1>Ready To Build Your Community?</h1>
+          <button class="start">Get Started For Free</button>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <img src="images/bg-footer-top-mobile.svg" id="foot-img" alt="">
+    <div class="footer">
+      <div class="foot-one foot">
+        <h3>Newsletter</h3>
+        <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or
+          pass on your email address</p>
+        <div class="input-group">
+          <div class="msg">
+            <input type="text" id="input">
+            <p class="valid">Check your email please</p>
+          </div>
+          <button class="subscribe start">Subscribe</button>
+        </div>
+      </div>
+      <div class="foot-two">
+        <div class="add">
+          <img src="images/logo-white.svg" height="50" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a,
+            ultrices quis sem.</p>
+        </div>
+        <div class="contact">
+          <div class="connect">
+            <img src="images/icon-phone.svg" alt="">
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+          <div class="connect">
+            <img src="images/icon-email.svg" alt="">
+            <p>example@huddle.com</p>
+          </div>
+        </div>
+        <div class="socials">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
