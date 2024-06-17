@@ -269,8 +269,9 @@ footer p {
 }
 
 #input {
-    padding: 12px;
+    padding: 15px 12px;
     width: 100%;
+    cursor: pointer;
     border-radius: 5px;
     border: none;
 }
@@ -283,7 +284,7 @@ footer p {
 }
 
 .start.subscribe {
-    padding: 17px 45px;
+    padding: 15px 45px;
     border-radius: 7px;
     box-shadow: none;
     margin-top: 0;
@@ -320,10 +321,15 @@ footer p {
     font-size: 24px;
     padding: 3px 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .socials i:nth-of-type(1) {
     padding: 3px 3px 3px 12px;
+}
+
+.socials i:nth-of-type(1):hover {
+    background-color: aqua;
 }
 
 .socials i:nth-of-type(2) {
@@ -331,4 +337,12 @@ footer p {
     color: var(--Very_Pale_Blue);
     padding: 0;
     font-size: 28px;
+}
+
+.socials i:nth-of-type(2):hover {
+    color: aqua;
+}
+
+.socials i:nth-of-type(3):hover {
+    background-color: aqua;
 }
