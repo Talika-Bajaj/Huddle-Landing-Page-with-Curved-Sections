@@ -13,25 +13,26 @@
     /* card */
     .card {
         padding: 25px 80px;
-        gap: 100px;
+        gap: 120px;
+    }
+
+    .info h1 {
+        font-size: 44px;
+    }
+
+    .info p {
+        width: 545px;
+        font-size: 17px;
     }
 
     .start {
         margin-top: 0;
-        padding: 22px 95px;
+        padding: 25px 95px;
     }
 
     /* section */
     .inner-section {
-        padding: 80px;
-    }
-
-    .info h1 {
-        font-size: 40px;
-    }
-
-    .info p {
-        width: 518px;
+        padding: 40px 60px;
     }
 
     .info.data p {
@@ -45,11 +46,11 @@
 
     /* footer */
     .footer {
-        padding: 45px 80px;
+        padding: 45px 60px;
     }
 }
 
-@media screen and (width>=850px) {
+@media screen and (width>=1060px) {
 
     /* figures */
     .figures {
@@ -61,6 +62,13 @@
     .inner-section {
         text-align: left;
         grid-template-columns: 50% 45%;
+        justify-content: space-around;
+        padding: 40px 95px;
+    }
+
+    .inner-section.color {
+        grid-template-columns: 45% 50%;
+
     }
 
     .info.data {
@@ -71,20 +79,25 @@
         grid-template-areas: 'data img';
     }
 
+    .inner-section.color {
+        grid-template-areas: 'img data';
+    }
+
     /* footer */
     .footer {
         grid-template-columns: 335px 375px;
         grid-template-areas: 'foot2 foot1';
         justify-content: space-between;
+        padding: 45px 95px;
     }
 
     .footer p {
-        width: 331px;
+        width: 372px;
     }
 
 }
 
-@media screen and (width>=1170px) {
+@media screen and (width>=1300px) {
 
     /* card */
     .img,
@@ -94,18 +107,34 @@
     }
 
     /* section */
+    .inner-section {
+        grid-template-columns: 560px 535px;
+    }
+
+    .inner-section.color {
+        grid-template-columns: 535px 588px;
+    }
+
+    .info.data.part2 p {
+        width: 587px;
+    }
+
     .info.data p {
-        width: 518px;
+        width: 541px;
+    }
+
+    .image {
+        width: 535px;
     }
 
     /* footer */
     .footer {
-        grid-template-columns: 335px 505px;
+        grid-template-columns: 335px 522px;
     }
 
     .input-group {
         flex-direction: row;
-        align-items: baseline;
+        align-items: flex-start;
         gap: 36px;
     }
 

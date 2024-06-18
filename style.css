@@ -22,7 +22,7 @@
 
 /* header */
 header {
-    padding: 48px 20px;
+    padding: 70px 50px;
     font-family: var(--Heading);
     background-color: #fff;
 }
@@ -37,7 +37,7 @@ nav {
     border: 1px solid var(--Pink);
     color: var(--Pink);
     font-weight: 500;
-    padding: 6px 24px;
+    padding: 10px 28px;
     font-size: 15px;
     border-radius: 25px;
     transition: all 0.3s ease-in;
@@ -57,7 +57,7 @@ nav {
     /* padding: 25px 45px; */
     display: grid;
     grid-template-columns: 100%;
-    gap: 110px;
+    gap: 125px;
 }
 
 /* card */
@@ -86,10 +86,11 @@ nav {
 
 .info p {
     font-weight: 500;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
 .start {
+    font-size: 17px;
     margin-top: 20px;
     font-family: var(--Body_font);
     background-color: var(--Pink);
@@ -98,7 +99,7 @@ nav {
     font-weight: 600;
     border: none;
     border-radius: 60px;
-    box-shadow: 0px 2px 5px 1px hsl(0deg 0% 49.93%);
+    box-shadow: 1px 8px 5px 0px #dde;
     transition: all 0.3s ease-in;
     cursor: pointer;
 }
@@ -130,12 +131,13 @@ nav {
 }
 
 .fig h1 {
-    font-size: 60px;
+    font-size: 95px;
     color: var(--Very_Dark_Cyan);
 }
 
 .fig p {
     /* color: hsl(0deg 0.76% 59.93%); */
+    font-size: 20px;
     color: hsl(0deg 0% 49.93%);
 }
 
@@ -185,6 +187,10 @@ nav {
     gap: 18px;
 }
 
+.info.data p {
+    font-family: var(--Body_font);
+}
+
 .top-img,
 .bottom-img {
     /* margin-top: 110px; */
@@ -210,29 +216,23 @@ nav {
 
 /* footer */
 footer {
-    position: relative;
+    /* background-color: var(--Very_Dark_Cyan); */
     font-family: var(--Body_font);
-    background-position: top;
 }
 
 #foot-img {
-    position: sticky;
-    top: 0;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
     width: 100%;
 }
 
-footer p {
-    font-size: 14px;
-}
-
 .footer {
+    margin-top: -5px;
     color: var(--Very_Pale_Blue);
     padding: 45px;
     background-color: var(--Very_Dark_Cyan);
     display: grid;
     grid-template-columns: 100%;
-    gap: 35px;
+    gap: 100px;
     align-items: baseline;
     grid-template-areas: 'foot1'
         'foot2';
@@ -245,7 +245,7 @@ footer p {
 .foot,
 .add {
     display: grid;
-    gap: 20px;
+    gap: 35px;
     grid-template-columns: 100%;
 
 }
@@ -264,7 +264,7 @@ footer p {
 }
 
 .msg {
-    gap: 8px;
+    gap: 6px;
     align-items: baseline;
 }
 
@@ -284,7 +284,7 @@ footer p {
 }
 
 .start.subscribe {
-    padding: 15px 45px;
+    padding: 11px 46px;
     border-radius: 7px;
     box-shadow: none;
     margin-top: 0;
@@ -311,7 +311,7 @@ footer p {
 
 .socials {
     display: flex;
-    gap: 15px;
+    gap: 30px;
     align-items: baseline;
 }
 
@@ -336,7 +336,7 @@ footer p {
     background-color: var(--Very_Dark_Cyan);
     color: var(--Very_Pale_Blue);
     padding: 0;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .socials i:nth-of-type(2):hover {
