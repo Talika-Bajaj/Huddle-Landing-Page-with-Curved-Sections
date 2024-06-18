@@ -88,7 +88,7 @@
         grid-template-columns: 335px 375px;
         grid-template-areas: 'foot2 foot1';
         justify-content: space-between;
-        padding: 45px 95px;
+        padding: 80px 95px;
     }
 
     .footer p {
