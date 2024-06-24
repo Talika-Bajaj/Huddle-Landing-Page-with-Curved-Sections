@@ -1,8 +1,16 @@
 @media screen and (width>=550px) {
 
     /* headaer */
+    header {
+        padding: 70px 50px;
+    }
+
     nav img {
         height: 100%;
+    }
+
+    .try-btn {
+        padding: 10px 28px;
     }
 
     /* main */
@@ -28,6 +36,11 @@
     .start {
         margin-top: 0;
         padding: 25px 95px;
+    }
+
+    /* figures */
+    .fig h1 {
+        font-size: 95px;
     }
 
     /* section */

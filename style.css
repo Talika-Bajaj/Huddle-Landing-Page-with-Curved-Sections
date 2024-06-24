@@ -22,7 +22,7 @@
 
 /* header */
 header {
-    padding: 70px 50px;
+    padding: 70px 28px;
     font-family: var(--Heading);
     background-color: #fff;
 }
@@ -37,7 +37,7 @@ nav {
     border: 1px solid var(--Pink);
     color: var(--Pink);
     font-weight: 500;
-    padding: 10px 28px;
+    padding: 10px 20px;
     font-size: 15px;
     border-radius: 25px;
     transition: all 0.3s ease-in;
@@ -131,7 +131,7 @@ nav {
 }
 
 .fig h1 {
-    font-size: 95px;
+    font-size: 85px;
     color: var(--Very_Dark_Cyan);
 }
 
